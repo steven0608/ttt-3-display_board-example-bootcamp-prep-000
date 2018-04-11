@@ -4,11 +4,11 @@ def display_board
 cell="   "
 row="#{cell}|#{cell}|#{cell}"
 end
-print each_row
-print "-----------"
-print each_row
-print "-----------"
-print each_row
+puts each_row
+puts "-----------"
+puts each_row
+puts "-----------"
+puts each_row
 end
 
 display_board
